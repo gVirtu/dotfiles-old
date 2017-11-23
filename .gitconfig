@@ -1,0 +1,29 @@
+[user]
+	email = giandroberto@yahoo.com.br
+	name = Giancarlo
+
+[push]
+	default = current
+
+[alias]
+	co = checkout
+	b = checkout -b
+	c = commit -m
+	ca = commit --amend
+	cl = clone
+	r = rebase
+	rc = rebase --continue
+	rd = rebase development
+	ri = rebase -i @~5
+	pf = push --force-with-lease
+	pr = pull --rebase
+	p = push
+	s = status
+	sh = stash
+	sp = stash pop
+	l = log
+	rl = reflog
+	a = add
+	aa = add .
+	rh = reset HEAD
+
